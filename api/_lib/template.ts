@@ -22,6 +22,8 @@ function getCss(theme: string, fontSize: string) {
         radial = 'dimgray';
     }
     return `
+    @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
     @font-face {
         font-family: 'Inter';
         font-style:  normal;
